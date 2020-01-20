@@ -24,3 +24,5 @@ Or consider setting up a simulator/emulator on your computer:
 <https://www.npmjs.com/package/generator-create-redux-app>
 
 <https://www.npmjs.com/package/generator-rn-toolbox>
+
+and use React browser developer tools ([Firefox add-on](https://addons.mozilla.org/en-US/firefox/addon/react-devtools) or [Chrome extension](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi) -> open dev tools -> Components tab)
