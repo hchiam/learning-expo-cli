@@ -20,7 +20,7 @@ Or consider setting up a simulator/emulator on your computer:
 - https://docs.expo.io/versions/v36.0.0/workflow/ios-simulator/
 - https://docs.expo.io/versions/v36.0.0/workflow/android-studio-emulator/
 
-I had to update switch node versions with `nvm use`, the deps in package.json, update the `sdkVersion` in app.json, and use the "Tunnel" connection.
+I had to update switch node versions with `nvm use `, the deps in package.json, update the `sdkVersion` in app.json, and use the "Tunnel" connection. The app seems to work even if I dismiss the JS/native version mismatch message.
 
 ## Yeoman generators you can try out instead
 
