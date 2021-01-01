@@ -24,7 +24,9 @@ const textStyle = {
   backgroundColor: "blue",
   color: "white",
   padding: 10,
-  marginTop: 20,
+  marginTop: 10,
+  position: "absolute",
+  bottom: "20%",
 };
 
 const styles = StyleSheet.create({
