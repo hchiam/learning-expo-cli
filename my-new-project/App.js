@@ -9,9 +9,23 @@ export default function App() {
       </Text>
       <Text style={styles.text}>It works! :)</Text>
       <Text style={{ color: "lime" }}>Hot reloading works too! Yay!</Text>
+      <Text style={textStyle}>Using object to set styles works too!</Text>
     </View>
   );
 }
+
+/** Note: Material UI's makeStyles/createStyles won't work
+ * because React Native doesn't have className.
+ * It's not transforming HTML into mobile components.
+ */
+
+const textStyle = {
+  fontSize: 20,
+  backgroundColor: "blue",
+  color: "white",
+  padding: 10,
+  marginTop: 20,
+};
 
 const styles = StyleSheet.create({
   container: {
